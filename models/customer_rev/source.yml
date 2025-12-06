@@ -1,0 +1,31 @@
+version: 2
+
+sources:
+  - name: landing
+    database: DBT_DEMO
+    schema: L1_LANDING
+
+    tables:
+      - name: customers
+        identifier: CUSTOMERS
+
+      - name: orders
+        identifier: ORDERS
+
+      - name: orderitems
+        identifier: ORDERITEMS
+
+      - name: employees
+        identifier: EMPLOYEES
+
+      - name: dates
+        identifier: DATES
+
+      - name: products
+        identifier: PRODUCTS
+
+      - name: stores
+        identifier: STORES
+
+      - name: suppliers
+        identifier: SUPPLIERS
