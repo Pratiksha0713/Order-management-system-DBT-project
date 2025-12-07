@@ -1,0 +1,10 @@
+sources:
+  - name: LANDING
+    database: DBT_DEMO
+    schema: TRAINING1
+
+    tables:
+      - name: TRIP_BOOKINGS
+        identifier: TRIP_BOOKINGS
+      - name: TRAVELLERS
+        identifier: TRAVELLERS
